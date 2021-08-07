@@ -1,7 +1,7 @@
 # EditPredict
 EditPredict is a sequence-only, sequencing-independent tool, which can be used stand-alone to predict novel RNA editing and to assist in filtering for candidate RNA editing detected from RNA-Seq data
 # How EditPredict works
-EditPredict calculates the mutual information (MI) of the mismatch pairs identified in the RNA-seq reads to distinguish RNA editing sites and SNPs. It also trains a generalized linear model (GLM) to achieve enhanced predictive power, which makes use of sequence bias information and the difference between the mismatch ratio of the unknown single nucleotide variants (SNVs) and the estimated allelic ratio of the gene.
+EditPredict calculates novel pattern identified in flanking sequences reads to distinguish RNA editing sites and SNPs. EditPredict is a Deep Learning solution (CNN) of RNA editing prediction from genome DNA sequence. Specifically, we utilized CNN to model flanking DNA sequences of known A-to-I RNA editing events, with consideration of alternate flanking directions and variant sequence lengths.
 # Instructions for use
 1. ### get RNA sequences: $ python get_seq.py -f [option1] -p [option2] -m [option3] -l [option4] -v [options5]
       * -f, --human reference genome File (hg38)
