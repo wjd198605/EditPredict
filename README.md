@@ -11,7 +11,7 @@ EditPredict calculates the mutual information (MI) of the mismatch pairs identif
 
 
 2. ### predict RNA editing: $ python predict_editing.py -f [option1] 
-     * -f, --RNA sequences File generated 
+     * -f, --RNA sequences File generated from instruction 1 
 
 # Availability of data and materials
 EditPredict web application is freely accessible to the public at http://www.innovebioinfo.com/Sequencing_Analysis/RNAediting/RNA1.php
