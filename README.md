@@ -10,7 +10,7 @@ EditPredict calculates the mutual information (MI) of the mismatch pairs identif
       * -l, --length of the RNA sequences 
 
 
-2. ### predict RNA editing: $ python EditPredict.py -f [option1] -c [option2] -w [option3]
+2. ### predict RNA editing: $ python editPredict.py -f [option1] -c [option2] -w [option3]
      * -f, --RNA sequences File generated from instruction 1 
      * -c, --model construction File 
      * -w, --model weight File
