@@ -12,9 +12,9 @@ EditPredict calculates novel pattern identified in flanking sequences reads to d
 
 
 2. ### predict RNA editing: $ python editPredict.py -f [option1] -c [option2] -w [option3]
-     * -f, --RNA sequences File generated from instruction 1 
-     * -c, --model construction File 
-     * -w, --model weight File
+     * `-f, --RNA sequences File generated from instruction 1 `
+     * `-c, --model construction File `
+     * `-w, --model weight File`
 
 # Availability of data and materials
 EditPredict web application is freely accessible to the public at http://www.innovebioinfo.com/Sequencing_Analysis/RNAediting/RNA1.php
